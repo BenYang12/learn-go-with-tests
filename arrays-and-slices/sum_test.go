@@ -67,5 +67,4 @@ func TestSumAllTails(t *testing.T) {
 		want := []int{0, 9}
 		checkSums(t, got, want)
 	})
-
 }
