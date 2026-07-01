@@ -1,5 +1,5 @@
 package structs_methods_interfaces
 
-func Perimeter(width float64, height float64) float64{
-	return 2 * (width + height)
+func Perimeter(rectangle Rectangle) float64 {
+	return 2 * (rectangle.Height + rectangle.Width)
 }
